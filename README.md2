@@ -1,0 +1,89 @@
+ ICT2306 – Data Structures and Algorithms (DSA)
+CA3 – Submission 2
+
+Student Assignment – Java Implementations
+
+This repository contains four data structure implementations developed using Java for the ICT2306 DSA CA3 – Submission 2.
+
+1. StackQueue – Dequeue Friendly
+A Queue implementation using two stacks. Elements are transferred between stacks when required to support efficient dequeue operations.
+
+Operations:
+- Enqueue
+- Dequeue
+- Peek
+- IsEmpty
+- Size
+- Display
+
+2. ArrayCircularQueue
+A Queue implementation using a fixed-size array with circular indexing. Freed array positions can be reused through circular movement.
+
+Operations:
+- Enqueue
+- Dequeue
+- Peek
+- IsEmpty
+- IsFull
+- Size
+- Display
+
+ 3. SinglyLinkedList
+A linked list where each node stores data and a reference to the next node.
+
+Operations:
+- Add First
+- Add Last
+- Remove First
+- Remove Last
+- Search
+- Display
+- IsEmpty
+- Size
+
+4. DoublyLinkedList
+A linked list where each node contains data, a next reference, and a previous reference. It supports forward and backward traversal.
+
+Operations:
+- Add First
+- Add Last
+- Remove First
+- Remove Last
+- Search
+- Display Forward
+- Display Backward
+- IsEmpty
+- Size
+
+Technologies Used
+- Java
+- Object-Oriented Programming
+- Data Structures
+
+How to Compile and Run
+
+Compile each Java file using:
+
+bash
+javac FileName.java
+
+Run the compiled program using:
+
+bash
+java ClassName
+
+Example:
+
+bash
+javac ArrayCircularQueue.java
+java ArrayCircularQueue
+
+ Repository Files
+
+- StackQueueDequeueFriendly.java
+- ArrayCircularQueue.java
+- SinglyLinkedList.java
+- DoublyLinkedList.java
+
+ICT2306 – Data Structures and Algorithms (DSA) 
+CA3 – Submission 2
